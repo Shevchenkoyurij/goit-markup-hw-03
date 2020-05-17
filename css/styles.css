@@ -1,0 +1,232 @@
+/*
+#ffffff Білий
+#212121 Чорний основний
+#000000 Чорний темніший 
+#757575 Сірий 
+#2196F3 Синій фокуc
+#E5E5E5 сірий фон
+*/
+:root {
+  
+  --primary-text-color: #212121;
+  --page-hero-text: #212121;
+  --main-accent: #2196f3;
+  --new-accent: #757575;
+  --pimary-bg-color: #ffffff;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: rgb(156, 151, 151);
+  /* тимчасовий колір*/
+}
+/* Logo  шрифт*/
+.logo{
+  font-family: Raleway, sans-serif;
+font-size: 26px;
+line-height: 31px;
+}
+.logo2{
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+line-height: 31px;
+}
+/* Logo  цвет*/
+.logo {
+        color: #2196f3;
+      }
+      .logo2 {
+        color: #000000;
+      }
+      .link { 
+        color: #000000;
+      }
+      .link:hover { 
+        color: #2196f3;
+      }
+      .link:focus {
+       color:  #ffffff;
+      }
+      .links:hover,
+      .links:focus {
+    color: var(--pimary-bg-color);
+    background-color: var(--main-accent);
+}
+.post-link {
+  color:#FFFFFF;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+}
+/* Применится ко всем абзацам на странице */
+p {
+  font-size: 16px;
+}
+/*Страница студия*/
+h1 {
+  font-family: Roboto; sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+h2 {
+  font-size: 18px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+h3 { font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+h4 {
+  font-family: Roboto; 
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+.best {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+}
+.comands {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+}
+.people {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+.claints{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+}
+.join-in {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+/* Страница портфолио*/
+.links {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+}
+.names {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+}
+.services {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+}
+
+
+/* Применится ко всем ссылкам на странице */
+a {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/*Site nav*/
+.logo:hover {
+  --new-accent: rgb(0, 0, 0)
+  color: var(--new-accent);
+}
+.site-nav .active a {
+    color: #2196f3;
+}
+.site-nav .link {
+  font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+.auth-nav .link {
+  color: #757575;
+  font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
+.features-title {
+  color: black;
+}
+.work-title {
+  color: #757575;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+}
+.work-title1 {
+  color: #757575;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+}
+.adress {
+  color: #757575;
+}
+.Contact-Information {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+}
+
+
+/*Button*/
+
+
+/* Шрифти 
+Raleway
+Roboto
+
+*/  
