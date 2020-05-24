@@ -68,17 +68,24 @@ line-height: 31px;
   width: 1200px;
   outline: 2px solid tomato;
 }
+.top-conteiner {
+
+}
 
 .best {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: grey;
+    /* Шрифт */
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
-  background-color: #2196f3;;
   outline: 2px solid tomato;
 
 }
@@ -149,11 +156,18 @@ font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 }
-
-.comands {
-  margin-top: 0;
- margin-bottom: 0;
-  font-family: Roboto;
+.back-piople{
+  display: flex;
+  flex-wrap: wrap;
+}
+.servise-job {
+  width: 300;
+}
+.comands-title {
+  po
+margin-top: 0;
+margin-bottom: 0;
+font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -321,3 +335,6 @@ Raleway
 Roboto
 
 */  
+.copyrights-cntr {
+  text-align: center;
+}
