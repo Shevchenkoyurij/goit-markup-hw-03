@@ -56,7 +56,7 @@ line-height: 31px;
   margin-bottom:15px ;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1170px;
   outline: 2px solid tomato;
 }
 .Conteiner2 {
@@ -71,14 +71,23 @@ line-height: 31px;
 .top-conteiner {
 
 }
-
-.best {
+.top-best {
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: grey;
+  /* outline: 2px solid tomato; */
+}
+
+.best {
+  /* width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: grey; */
     /* Шрифт */
   font-family: Roboto;
   font-style: normal;
@@ -86,24 +95,28 @@ line-height: 31px;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
-  outline: 2px solid tomato;
+  
 
 }
 .post-link {
-margin-top: 160px;
-margin-bottom: 5px;
+margin-top: 130px;
+margin-bottom: 0px;
 color:#FFFFFF;
+
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
+
 font-size: 16px;
 line-height: 30px;
 padding: 10px 32px;
+
 position: absolute;
 width: 200px;
 height: 50px;
-left: 700px;
+left: 850px;
 top: 350px;
+
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -164,7 +177,6 @@ line-height: 19px;
   width: 300;
 }
 .comands-title {
-  po
 margin-top: 0;
 margin-bottom: 0;
 font-family: Roboto;
@@ -173,6 +185,7 @@ font-weight: bold;
 font-size: 36px;
 line-height: 42px;
 text-align: center;
+
 }
 .people {
   font-family: Roboto;
@@ -189,6 +202,8 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 }
+.partner {
+}
 .join-in {
   font-family: Roboto;
 font-style: normal;
@@ -196,6 +211,35 @@ font-weight: bold;
 font-size: 14px;
 line-height: 16px;
 }
+/*Чем мы занимаемся*/
+.product {
+  display: flex;
+}
+.product .product-item:not(:last-child) {
+  margin-right: 30px;
+}
+.product .product-title {
+  margin: 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  color: var(--secondary-color-text);
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+.product-item {
+  display: block;
+}
+
+.product-icon {
+  display: block;
+}
+
 /* Страница портфолио*/
 .links {
   font-family: Roboto;
@@ -219,12 +263,13 @@ font-size: 18px;
 line-height: 28px;
 }
 .magik-button {
- margin-top: 0; 
+ margin-top: 93px; 
  margin-bottom: 34px;
+ text-align: center;
   
 }
 .top-conteiner {
-  width: 1400px;
+  width: 1370px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -233,7 +278,7 @@ line-height: 28px;
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: #2196f3;
+  /* background-color: #2196f3; */
 }
 .flex-element {
   width: 370px;
@@ -241,8 +286,8 @@ line-height: 28px;
   margin-right: 30px;
   list-style: none;
 }
-.flex-element:nth-child(3n){
-  margin-right: 0;
+.flex-element:nth-child(3n) {
+  margin-right: 30;
 }
 
 
