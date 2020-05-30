@@ -16,8 +16,24 @@
 }
 body {
   font-family: Roboto, sans-serif;
+  
   /* тимчасовий колір*/
 }
+.page-header {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* main-nav */
+.main-nav{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 1200px;
+}
+
 /* Logo  шрифт*/
 .logo{
   font-family: Raleway, sans-serif;
@@ -51,13 +67,11 @@ line-height: 31px;
     background-color: var(--main-accent);
 }
 .container {
-
-  margin-top: 15px;
-  margin-bottom:15px ;
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
-  outline: 2px solid tomato;
+  height: 80px;
+  /* outline: 2px solid tomato; */
 }
 .Conteiner2 {
   margin-top: 0px;
@@ -68,26 +82,20 @@ line-height: 31px;
   width: 1200px;
   outline: 2px solid tomato;
 }
-.top-conteiner {
-
-}
 .top-best {
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: grey;
-  /* outline: 2px solid tomato; */
+  text-align: center;
+  /* text-align: center; */
+ 
 }
-
+/* button */
 .best {
-  /* width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-color: grey; */
+  margin-top: 0px;
+  margin-bottom: 46px;
+  background-color: grey;
+
     /* Шрифт */
   font-family: Roboto;
   font-style: normal;
@@ -97,12 +105,13 @@ line-height: 31px;
   text-align: center;
 }
 
-/* button */
-
 .post-link {
 display: inline-block;
-margin-top: 130px;
+padding: 10px 32px;
+min-width: 200px;
+min-height: 50px;
 margin-bottom: 0px;
+
 color:#FFFFFF;
 
 font-family: Roboto;
@@ -110,26 +119,30 @@ font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 30px;
-padding: 10px 32px;
 
-position: absolute;
-width: 200px;
+
+position: center;
+/* width: 200px;
 height: 50px;
 left: 700px;
-top: 350px;
+top: 350px; */
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
+
 .combo {
   margin-top: 0;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   outline: 2px solid tomato;
 }
+
 
 /* Применится ко всем абзацам на странице */
 p {
@@ -341,15 +354,10 @@ line-height: 1.14;
 .site-nav .link:focus {
   color: #2196f3;
 }
-/* main-nav */
-.main-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between ;
-}
+
 .auth-nav {
   display: flex;
-  margin-left: auto ;
+  margin-left: auto;
 }
 .auth-nav .link + .link {
   margin-left: 30px;
