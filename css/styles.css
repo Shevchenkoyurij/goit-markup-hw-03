@@ -69,8 +69,10 @@ line-height: 31px;
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   height: 80px;
+  padding-right: 15px;
+  padding-left: 15px;
   /* outline: 2px solid tomato; */
 }
 .Conteiner2 {
@@ -83,6 +85,8 @@ line-height: 31px;
   outline: 2px solid tomato;
 }
 .top-best {
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: grey;
@@ -103,6 +107,7 @@ line-height: 31px;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .post-link {
@@ -131,71 +136,62 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
-
-.combo {
-  margin-top: 0;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
+.waring {
+  margin-top: 30;
+  margin-bottom: 0;
+}
+.combo .function {
   padding-top: 94px;
   padding-bottom: 94px;
-  outline: 2px solid tomato;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .function {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+ 
+  
   display: flex;
+
   list-style: none;
+  
 }
 
+.function .degris {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.function .waring{
+  margin-top: 30px;
+  margin-bottom: 0;
+  
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.function .text {
+  margin-top: 10px;
+  margin-bottom: 0;
+  
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.function .degris + .degris {
+    margin-left: 30px;  
+}
 /* Применится ко всем абзацам на странице */
 p {
   font-size: 16px;
 }
-/*Страница студия*/
-h1 {
-  font-family: Roboto; sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  color: #FFFFFF;
-}
-.waring {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-h2 {
-  font-size: 18px;
-  font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-}
-h3 { font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-}
-h4 {
-  font-family: Roboto; 
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-}
-.back-piople{
-  display: flex;
-  flex-wrap: wrap;
-}
-.servise-job {
-  width: 300;
-}
-.comands-title {
+
+/* Секция Чем мы занимаемся */
+
+.comands-titles {
 margin-top: 0;
-margin-bottom: 0;
+margin-bottom: 50px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -203,15 +199,205 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 /* outline: 2px solid tomato; */
-
 }
+
+.title {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+
+
+
+/* Team css options */
+.team-bgc {
+  /* background-color: var(--new-accent); */
+}
+
+
+.team {
+  display: flex;
+  list-style: none;
+}
+
+.team > .team-member {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.team > .team-member:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-description {
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+.team-title {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--font-secondary-color);
+}
+
+.team-position {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--font-primary-color);
+}
+
+.team-social {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-team-social {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background-color: var(--font-primary-color);
+}
+
+.icon-team-social:hover,
+.icon-team-social:focus {
+  background-color: var(--font-active-element);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.doing {
+  padding-top: 50px;
+  margin-bottom: 600px;
+}
+
 .people {
-  font-family: Roboto;
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 }
+
+.team-pepole {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Страница студия*/
+h1 {
+font-family: Roboto; sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+color: #FFFFFF;
+}
+
+h2 {
+font-size: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+h3 { 
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+}
+h4 {
+font-family: Roboto; 
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+/* .back-piople{
+  display: flex;
+  flex-wrap: wrap;
+} */
+.servise-job {
+  width: 300;
+}
+
+
 .claints{
   font-family: Roboto;
 font-style: normal;
@@ -220,8 +406,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 }
-.partner {
-}
+
 .join-in {
   font-family: Roboto;
 font-style: normal;
@@ -383,8 +568,11 @@ font-size: 16px;
 line-height: 30px;
 }
 .work-title1 {
-  color: #757575;
-  font-family: Roboto;
+margin-top: 10px;
+margin-bottom: 0;
+
+color: #757575;
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
