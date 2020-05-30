@@ -143,6 +143,10 @@ border-radius: 4px;
   outline: 2px solid tomato;
 }
 
+.function {
+  display: flex;
+  list-style: none;
+}
 
 /* Применится ко всем абзацам на странице */
 p {
@@ -198,6 +202,7 @@ font-weight: bold;
 font-size: 36px;
 line-height: 42px;
 text-align: center;
+/* outline: 2px solid tomato; */
 
 }
 .people {
