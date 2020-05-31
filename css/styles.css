@@ -13,6 +13,7 @@
   --main-accent: #2196f3;
   --new-accent: #757575;
   --pimary-bg-color: #ffffff;
+  --bgc-footer:#2F303A;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -429,6 +430,8 @@ line-height: 16px;
 /*Чем мы занимаемся*/
 .product {
   display: flex;
+  
+
 }
 .product .product-item:not(:last-child) {
   margin-right: 30px;
@@ -631,6 +634,32 @@ Roboto
 .icon:focus {
   color: var(--pimary-bg-color);
   background-color: var(--main-accent);
+}
+
+
+.footer {
+  padding-top: 48px;
+  padding-bottom: 0px;
+  background-color: var(--bgc-footer);
+  
+   /* color: var(--pimary-bg-color); */
+
+}
+
+.srift {
+color: rgba(255, 255, 255, 0.6);
+}
+.copyrights-cntr {
+  color: rgba(255, 255, 255, 0.6);
+}
+.join-in {
+  color:#FFFFFF
+}
+.Contact-Information {
+list-style: none;
+}
+.serial {
+  list-style: none;
 }
 
 .copyrights-cntr {
