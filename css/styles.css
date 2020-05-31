@@ -295,7 +295,9 @@ padding-top: 94px;
 }
 
 
-
+.footer-container{
+  display: flex;
+}
 
 
 
@@ -419,14 +421,6 @@ line-height: 42px;
 text-align: center;
 }
 
-.join-in {
-  font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-
-}
 /*Чем мы занимаемся*/
 .product {
   display: flex;
@@ -604,10 +598,9 @@ font-size: 14px;
 line-height: 24px;
 }
 .footer {
-
   padding-top: px;
-  width: 1200px;
-  margin-top: 400px;
+  /* width: 1200px; */
+  margin-top: 300px;
   padding-top: 24px;
   margin-left: auto;
   margin-right: auto;
@@ -638,7 +631,8 @@ Roboto
 
 
 .footer {
-  padding-top: 48px;
+  
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: var(--bgc-footer);
   
@@ -675,10 +669,25 @@ list-style: none;
 
 .copyrights-cntr {
  
-  margin-top: 253px;
+  margin-top: 100px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 18px;
   padding-bottom: 21px;
   text-align: center;
 
+}
+.join-in{
+  margin-left: px;
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+}
+}
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
