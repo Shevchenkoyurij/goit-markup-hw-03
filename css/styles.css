@@ -223,13 +223,13 @@ letter-spacing: 0.03em;
 background-color: #F5F4FA;
 padding-top: 94px;
   padding-bottom: 94px;
-
 }
 
 
 .team {
   display: flex;
   list-style: none;
+  justify-content: center; 
   position: center;
 }
 
@@ -409,7 +409,7 @@ line-height: 19px;
 
 .claints{
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 50px;
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -424,6 +424,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 16px;
+
 }
 /*Чем мы занимаемся*/
 .product {
@@ -600,8 +601,10 @@ font-size: 14px;
 line-height: 24px;
 }
 .footer {
+
+  padding-top: px;
   width: 1200px;
-  margin-top: 5px;
+  margin-top: 400px;
   padding-top: 24px;
   margin-left: auto;
   margin-right: auto;
@@ -615,6 +618,25 @@ Raleway
 Roboto
 
 */  
+.claints-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon:hover,
+.icon:focus {
+  color: var(--pimary-bg-color);
+  background-color: var(--main-accent);
+}
+
 .copyrights-cntr {
+  padding-top: 250px;
+  /* border-top: 1px solid #ECECEC; */
+    padding-bottom: 21px;
   text-align: center;
+
 }
