@@ -149,11 +149,11 @@ border-radius: 4px;
   margin-top: 30;
   margin-bottom: 0;
 }
-.combo .function {
+/* .combo .function {
   padding-top: 94px;
   padding-bottom: 94px;
   border-bottom: 1px solid #ECECEC;
-}
+} */
 
 .function {
   margin-right: auto;
@@ -240,6 +240,7 @@ padding-bottom: 94px;
   list-style: none;
   justify-content: center; 
   position: center;
+  
 }
 
 .team > .team-member {
@@ -394,7 +395,7 @@ line-height: 24px;
 display: block;
 margin-top: auto;
 margin-bottom: 21px;
-color:#FFFFFF
+color:#FFFFFF;
 
 font-weight: 700;
 font-size: 14px;
@@ -495,7 +496,7 @@ text-transform: uppercase;
 
 .doing {
   padding-top: 50px;
-  margin-bottom: 600px;
+  margin-bottom: 300px;
 }
 
 .people {
