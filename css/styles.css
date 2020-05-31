@@ -75,15 +75,15 @@ line-height: 31px;
   padding-left: 15px;
   /* outline: 2px solid tomato; */
 }
-.Conteiner2 {
+/* .Conteiner2 {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 24px;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 2px solid tomato;
-}
+  outline: 2px solid tomato; */
+
 .top-best {
   margin-top: 0;
   margin-bottom: 0;
@@ -202,6 +202,9 @@ text-align: center;
 }
 
 .title {
+  margin-top: 0px;
+padding-top:  0px;
+padding-bottom: 0px;
 
 font-family: Roboto;
 font-style: normal;
@@ -217,13 +220,17 @@ letter-spacing: 0.03em;
 
 /* Team css options */
 .team-bgc {
-  /* background-color: var(--new-accent); */
+background-color: #F5F4FA;
+padding-top: 94px;
+  padding-bottom: 94px;
+
 }
 
 
 .team {
   display: flex;
   list-style: none;
+  position: center;
 }
 
 .team > .team-member {
@@ -249,7 +256,7 @@ letter-spacing: 0.03em;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: var(--font-secondary-color);
+  color: var(--primary-text-color:);
 }
 
 .team-position {
@@ -264,6 +271,8 @@ letter-spacing: 0.03em;
 .team-social {
   display: flex;
   justify-content: center;
+  padding-left:  32px;
+  padding-right: 32px;
 }
 
 .team-social .item:not(:last-child) {
@@ -276,12 +285,12 @@ letter-spacing: 0.03em;
   height: 44px;
   border-radius: 50%;
 
-  background-color: var(--font-primary-color);
+  background-color: var(--new-accent);
 }
 
 .icon-team-social:hover,
 .icon-team-social:focus {
-  background-color: var(--font-active-element);
+  background-color: var(--main-accent);
 }
 
 
@@ -399,6 +408,8 @@ line-height: 19px;
 
 
 .claints{
+  padding-top: 94px;
+  padding-bottom: 94px;
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
