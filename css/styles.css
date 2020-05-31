@@ -646,7 +646,18 @@ Roboto
 
 }
 
-.srift {
+
+.logo3 {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+line-height: 31px;
+    color: #FFFFFF
+}
+    .srift {
+
+
+
+
 color: rgba(255, 255, 255, 0.6);
 }
 .copyrights-cntr {
@@ -663,9 +674,11 @@ list-style: none;
 }
 
 .copyrights-cntr {
-  padding-top: 250px;
-  /* border-top: 1px solid #ECECEC; */
-    padding-bottom: 21px;
+ 
+  margin-top: 253px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 18px;
+  padding-bottom: 21px;
   text-align: center;
 
 }
