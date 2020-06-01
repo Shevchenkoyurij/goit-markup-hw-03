@@ -312,7 +312,7 @@ padding-bottom: 94px;
 }
 
 .footer {
-  margin-top: 300px;
+  margin-top: 94px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 48px;
@@ -503,7 +503,8 @@ text-transform: uppercase;
 
 
 .doing {
-  padding-top: 50px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   /* margin-bottom: 300px; */
 }
 
@@ -593,7 +594,7 @@ text-align: center;
 /*Чем мы занимаемся*/
 .product {
   display: flex;
-  
+  padding-left: 0px;
 
 }
 .product .product-item:not(:last-child) {
