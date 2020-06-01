@@ -416,6 +416,7 @@ text-transform: uppercase;
   text-transform: uppercase;
 }
 .social-links {
+  padding-left: 0px;
   display: flex;
   justify-content: space-evenly;
 }
