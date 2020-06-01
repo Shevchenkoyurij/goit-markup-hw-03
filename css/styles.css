@@ -421,6 +421,13 @@ text-transform: uppercase;
   justify-content: space-evenly;
 }
 
+.join- .item:hover {
+    --color3: var(--primary-white-color);
+    background: var(--accent-color);
+}
+  background-color: var(--main-accent);
+}
+
 /* временный цвет фона */
 .social-links .link {
   color: var(--complementary-color);
@@ -798,6 +805,7 @@ color: rgba(255, 255, 255, 0.6);
 .join-in {
   color:#FFFFFF
 }
+
 .Contact-Information {
 list-style: none;
 }
@@ -828,3 +836,13 @@ line-height: 16px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.linke { 
+color: #ffffff;
+}
+.linke:hover { 
+color: #2196f3;
+}
+.linke:focus {
+  color: #ffffff;
+  }
+    
