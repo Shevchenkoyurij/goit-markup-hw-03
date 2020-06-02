@@ -49,6 +49,8 @@ body {
   margin-right: auto;
   height: 80px;
   width: 1200px;
+  border-bottom: 1px solid #ECECEC
+
 }
 
 /* Logo  шрифт*/
@@ -78,6 +80,7 @@ line-height: 31px;
   padding-right: 15px;
   padding-left: 15px;
   /* outline: 2px solid tomato; */
+
 }
 
 
